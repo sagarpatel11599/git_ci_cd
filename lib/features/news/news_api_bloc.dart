@@ -12,7 +12,7 @@ class NewsApiBloc extends Bloc<NewsApiEvent, NewsApiState> {
     });
     on<NewsFilterEvent>((event, emit) {
       // TODO: implement event handler
-
+      //call your business logic
     });
 
   }
